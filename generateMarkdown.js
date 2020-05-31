@@ -20,7 +20,7 @@ const generateMarkdown = data => {
 
 ## ${data.rmTitle}\n\n
 
-## Description:\n${data.rmDesc}\n\n
+## Project Description:\n${data.rmDesc}\n\n
 
 ## URL:\n${data.rmUrl}\n\n
 

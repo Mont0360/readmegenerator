@@ -70,7 +70,7 @@ const init = async _ => {
       {
         type: 'input',
         name: 'test',
-        message: 'What are the tests?'
+        message: 'What command should be run to run tests?'
       },
       {
         type: 'input',
