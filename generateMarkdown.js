@@ -1,9 +1,11 @@
 const generateMarkdown = data => {
   // return JSON.stringify(data)
   return `
-# ${data.title.toUpperCase()}
+
 
 <a href="${data.link}" style="float:right"><img src="${data.avatar}" alt="profile-pic" title="${data.name}" width="100" height="100"></a>
+
+# ${data.title.toUpperCase()}
 
 ![License: ${(data.lic) ? data.lic : 'MIT'}](https://img.shields.io/badge/License-${(data.lic) ? data.lic : 'MIT'}-brightgreen)
 
